@@ -13,10 +13,10 @@ const App = () => {
     // <LoginPage />
     // <Start />
     // <SignPage />
-    <FirstPage />
+    // <FirstPage />
     // <SecondPage />
     // <ThirdPage />
-    // <LastPage />
+    <LastPage />
   );
 };
 

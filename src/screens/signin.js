@@ -25,14 +25,14 @@ const SignPage = () => {
     <Text style={styles.title}>Add your details below to setup an account</Text>
       <TextInput
         style={styles.input}
-        placeholder="Username"
+        placeholder="example@gmail.com"
         placeholderTextColor="#a6a6a6"
         value={username}
         onChangeText={setUsername}
       />
       <TextInput
         style={styles.input}
-        placeholder="Password"
+        placeholder="enter your password"
         placeholderTextColor="#a6a6a6"
         secureTextEntry
         value={password}
@@ -70,7 +70,7 @@ const styles = StyleSheet.create({
       padding: 20,
       backgroundColor: 'rgba(0,0,0,0.5)'
     },
-        title: {
+      title: {
       fontSize: 32,
       marginTop: 120,
       color: '#fff',
@@ -78,15 +78,14 @@ const styles = StyleSheet.create({
       marginBottom: 30,
     },
   input: {
-      width: '100%',
-      height: 50,
-      borderWidth: 1,
-      borderColor: '#ccc',
-      borderRadius: 10,
-      paddingHorizontal: 15,
-      marginBottom: 15,
-      fontSize: 18,
-      color: '#fff'
+    width: '100%',
+    height: 50,
+    borderBottomWidth:1,
+    borderBottomColor: '#a6a6a6',
+    paddingHorizontal: 15,
+    marginBottom: 15,
+    fontSize: 18,
+    color: '#fff',
   },
       button: {
         width: '100%',
